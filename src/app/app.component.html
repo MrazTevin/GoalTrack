@@ -3,3 +3,4 @@
   <ul>
     <li *ngFor='let goal of goals'>{{goal}}</li>
   </ul>
+  <p *ngIf='goals.length>5'>You have too many goals</p>
